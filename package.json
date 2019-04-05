@@ -1,0 +1,49 @@
+{
+  "name": "layout-template",
+  "version": "1.0.0",
+  "description": "Just simple layout template",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp",
+    "minify": "gulp minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minatula/layout-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minatula/layout-template/issues"
+  },
+  "homepage": "https://github.com/minatula/layout-template#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/polyfill": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-free-brands": "^5.0.13",
+    "@fortawesome/fontawesome-free-regular": "^5.0.13",
+    "@fortawesome/fontawesome-free-solid": "^5.0.13",
+    "browser-sync": "^2.26.3",
+    "del": "^4.1.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-cli": "^2.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-newer": "^1.4.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-pug": "^4.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-glob": "^1.0.9",
+    "gulp-tinypng-unlimited": "^1.0.3",
+    "gulp-uglify": "^3.0.2",
+    "gulp-wait2": "^0.0.5",
+    "jquery": "^3.3.1",
+    "jstransformer-uglify-js": "^1.2.0",
+    "path": "^0.12.7"
+  }
+}
